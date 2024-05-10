@@ -1,0 +1,82 @@
+/* Import font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Gaya pemilihan teks */
+::selection {
+    background-color: #434342; /* Ubah warna latar belakang yang dipilih */
+    color: #fffefe; /* Ubah warna teks yang dipilih */
+}
+
+/* Gaya umum untuk semua elemen */
+* {
+    font-family: "Oswald"; /* Menggunakan font Oswald */
+    color: black; /* Warna teks default */
+    font-size: 18px; /* Ukuran font default */
+}
+
+/* Pengaturan latar belakang untuk halaman web */
+.body-web {
+    background-color: whitesmoke; /* Warna latar belakang halaman */
+}
+
+/* Pengaturan border-radius untuk elemen container */
+.container {
+    border-radius: 5px; /* Border radius untuk elemen container */
+}
+
+/* Gaya untuk tombol */
+.button button {
+    transition: background-color 0.25s; /* Animasi perubahan warna latar belakang */
+}
+
+/* Gaya untuk efek hover tombol */
+.button button:hover {
+    background-color: black; /* Ubah warna latar belakang saat tombol dihover */
+    color: white; /* Ubah warna teks saat tombol dihover */
+} 
+
+/* Pengaturan untuk input yang sedang dalam fokus */
+.form-control:focus {
+    border-color: black; /* Warna border saat input ditekan */
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25); /* Bayangan saat input ditekan */
+}
+
+/* Gaya untuk kontainer tombol */
+.button {
+    display: flex; /* Atur tata letak kontainer ke flex */
+    justify-content: center; /* Mengatur posisi horizontal ke tengah */
+    margin-top: 20px; /* Jarak dari atas */
+}
+
+/* Gaya untuk opsi yang dipilih pada select */
+select.form-select:focus {
+    border-color: black; /* Warna border saat input ditekan */
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25); /* Bayangan saat input ditekan */
+}
+
+/* CSS untuk styling output formulir */
+#output {
+    margin-top: 20px; /* Jarak dari atas */
+    border: 1px dashed #000000; /* Border solid hitam */
+    padding: 20px; /* Padding */
+    background-color: #ffffff; /* Warna latar belakang */
+    border-radius: none; /* Border-radius */
+}
+
+#output h2 {
+    color: #000000; /* Warna teks */
+    font-size: 24px; /* Ukuran font */
+    margin-bottom: 10px; /* Jarak dari bawah */
+}
+
+/* Mengubah warna bulatan radio menjadi hitam saat dipilih */
+.form-check-input:checked {
+    background-color: black; /* Warna latar belakang */
+    border-color: black; /* Warna border */
+}
+
+#output p {
+    color: #000000; /* Warna teks */
+    font-size: 18px; /* Ukuran font */
+    margin-bottom: 5px; /* Jarak dari bawah */
+}
